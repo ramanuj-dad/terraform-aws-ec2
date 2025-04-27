@@ -12,6 +12,5 @@ provider "aws" {
 }
 
 module "ec2" {
-  source      = "../../"
-  name_prefix = "my-vm"
+  source = "../../"
 }
